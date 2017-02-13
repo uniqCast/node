@@ -6,11 +6,11 @@ Node.js uses [npm](https://www.npmjs.com) to manage programming projects consist
 dependencies, build and install processes along with general project information and requirements.
 
 Setup your environment by cloning the [bootstrap](https://bitbucket.org/uniqdevs/node-boilerplate) repository.
-Inside you fill find a package.json file, which dictates how your environment will be configured.
+Inside you will find a package.json file, which dictates how your environment will be configured.
 
 Run ```npm install```. It will pull all the required dependencies.
 
-You should now build your first application. Open an index file (app.js by default) and use a function called ```main```
+You should now build your first application. Open an index file (src/app.js by default) and use a function called ```main```
 to print out a string ```Hello, world!``` to console (stdout).
 
 Build your project with ```npm test``` 
