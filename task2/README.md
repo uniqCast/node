@@ -8,4 +8,4 @@ In order to complete this task, you should do the following:
  * create and sync a database model consisting of columns  ```id (integer, primary key)```, ```content_uid (string)```, ```expires (datetime)```
  * install, setup and run a [NATS server](https://github.com/nats-io/gnatsd) locally on your computer
  * connect to NATS with [node-nats](https://github.com/nats-io/node-nats)
- * subscribe to queues called "content.add" and "content.list" and write all received data to stdout
+ * subscribe to queues called "content.add" and "content.list" and write all received data to stdout (there won't be any data received, but we will continue on later...)
